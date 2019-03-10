@@ -22,3 +22,10 @@ services:
       - ./golang/work/:/work
     tty: true
 
+  elixir:
+    build: ./elixir
+    container_name: elixir
+    volumes:
+      - ./elixir/work/:/work
+    tty: true
+

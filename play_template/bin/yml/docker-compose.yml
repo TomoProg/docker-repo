@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  play_sample_web:
+    build: ../../web/
+    volumes:
+      - ../../web/myapp:/myapp
+      - ../../web/scripts:/var/scripts
+    ports:
+      - "9000:9000"
+      - "5005:5005"
+    environment:
+      DB_NAME:
+      DB_HOST:
+      DB_USER:
+      DB_PASS:
+      SBT_OPTS:
+    container_name: "play_sample_web"
+    command: /var/scripts/start_webapp.sh

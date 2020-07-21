@@ -29,3 +29,10 @@ services:
       - ./elixir/work/:/work
     tty: true
 
+  rust:
+    build: ./rust
+    container_name: rust
+    volumes:
+      - ./rust/work/:/work
+    tty: true
+

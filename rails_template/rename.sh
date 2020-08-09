@@ -1,5 +1,5 @@
 #!/bin/bash
-APP_NAME="rails_api_template"
+APP_NAME="rails_template"
 function print_usage() {
     echo "usage: ./rename.sh name"
 }

@@ -14,7 +14,7 @@ echo -n "Do you want to rename? [${APP_NAME}] -> [$1] (y/N):"
 read ANS
 case $ANS in
     [Yy]* )
-        grep -rl ${APP_NAME} . | grep -v rename.sh | xargs sed -i '' 's/${APP_NAME}/$1/g'
+        grep -rl ${APP_NAME} . | grep -v rename.sh | xargs sed -i '' "s/${APP_NAME}/$1/g"
         echo "Complete!!!"
         ;;
 esac

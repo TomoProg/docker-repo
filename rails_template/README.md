@@ -1,2 +1,2 @@
 # rails_template
-Rails APIモード テンプレート
+Rails6 テンプレート

@@ -1,2 +1,2 @@
-# rails_api_template
+# rails_study
 Rails APIモード テンプレート

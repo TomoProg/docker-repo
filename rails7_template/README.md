@@ -1,2 +1,2 @@
 # rails_template
-Rails6 テンプレート
+Rails7 テンプレート

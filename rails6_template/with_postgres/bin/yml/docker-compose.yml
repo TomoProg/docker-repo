@@ -21,8 +21,7 @@ services:
     command: /var/scripts/start.sh
 
   rails_template_db:
-    #build: ../../db/
-    build: /MacDocuments/docker-repo/rails6_template/with_postgres/db
+    build: ../../db/
     volumes:
       - rails_template_db_volume:/var/lib/postgresql/data
       - ../../db/scripts:/var/scripts

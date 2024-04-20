@@ -1,4 +1,4 @@
-FROM nginx:1.15.4
+FROM nginx:1.25.5
 LABEL maintainer="TomoProg"
 RUN apt-get update -qq && apt-get install -y \
     vim-tiny \

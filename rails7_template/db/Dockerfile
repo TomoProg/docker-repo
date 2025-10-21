@@ -1,4 +1,4 @@
-FROM mariadb:10.5.4
+FROM mariadb:10.11.14
 LABEL maintainer="TomoProg"
 RUN apt-get update && apt-get install -y \
 	vim-tiny
